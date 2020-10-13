@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <!-- Judul Halaman Web -->
+    <title>Tugas 2 HTML</title>
+    <!-- Icon yang berada di sebelah judul halaman web -->
+    <link href='assets/eye.ico' rel='shortcut icon'>
+</head>
+
+<body>
+    <!-- align digunakan untuk memindahkan posisi konten-->
+    <h2 align="center">DAFTAR HADIR</h2>
+    <p align="center">PRAKTIKUM PEMOGRAMAN BERBASIS WEB</p>
+    <!-- hr untuk membuat garis pada halaman web -->
+    <hr>
+    <!-- br untuk mengosongkan 1 baris pada halaman web -->
+    <br>
+    <!-- TABLE DAFTAR HADIR START -->
+    <!-- border pada tabel digunakn untuk garis sebagai pembatas antar kolom -->
+    <!-- width merupakan lebar tabel -->
+    <table border="1" width ="100%">
+        <!-- bg color digunakan untuk memberi warna pada table row atau baris tabel -->
+        <!-- bg color dirubah mwnggunakan warna dalam bentu HEX -->
+        <tr bgcolor="#5F9EA0">
+            <!-- th digunakan sebagai table head sehingga tulisan dalam kolom menjadi lebih tebal -->
+            <th rowspan="2">No</th>
+             <!-- rowspan untuk menggabungkan (merge) dua baris -->
+            <th rowspan="2">Nama</th>
+            <!-- colspan untuk meggabungkan (merge) lima kolom -->
+            <th colspan="5">Pertemuan</th>
+        </tr>
+        <tr align="center" bgcolor="#5F9EA0">
+            <!-- td merupaka table data untuk membuat kolom -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr align="center">
+            <td>001</td>
+            <td>Muhammad Firdaus Zulkarnain</td>
+            <!-- gambar TTD -->
+            <!-- Diberikan tambahan atribut width agar kolom tidak melebar ketika diberi gambar -->
+            <!-- width bisa diberikan pada kolom paling atas sehingga 
+                kolom pada baris dibawahnya akan mengikuti -->
+            <td width="70">
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td width="70">❌</td>
+            <td width="70">❌</td>
+            <td width="70">
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td width="70">
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+        </tr>
+        <tr align="center">
+            <td>002</td>
+            <td>Hairul Lana</td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td> 
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>❌</td>
+            <td>❌</td>
+        </tr>
+        <tr align="center">
+            <td>003</td>
+            <td>I Made Ari Widiarsana</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>❌</td>
+        </tr>
+        <tr align="center">
+            <td>004</td>
+            <td>I Nyoman Wina Artha Setiawan</td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+        </tr>
+        <tr align="center">
+            <td>005</td>
+            <td>Karel Leo Rivaldo</td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+            <td>
+                <img src="assets/ttd.jpeg" alt="" width="30">
+            </td>
+        </tr>
+        
+    </table>
+    <!-- TABEL DAFTAR HADIR END -->
+    <br>
+    <!-- TABEL KETERANGAN START -->
+    <table border="1">
+        <tr bgcolor="#5F9EA0">
+            <th colspan="2">Keterangan :</th>
+        </tr>
+        <tr>
+            <td>✅</td>
+            <td>Hadir</td>
+        </tr>
+        <tr>
+            <td>❌</td>
+            <td>Tidak hadir</td>
+        </tr>
+    </table>
+    <!-- TABEL KETERANGAN END -->
+    <br>
+    <!-- b digunakan untuk menambah ketebalan tulisan -->
+    <p><b>*Constraint : No CSS used!</b></p>
+    <p><b>*Bonus Challenges : Replace the "✅" with an image of a hand's signature</b></p>
+</body>
+</html>
