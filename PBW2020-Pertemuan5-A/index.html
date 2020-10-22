@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran RAKERWIL</title>
+    <!-- Link untuk css eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link untuk icon -->
+    <link href='assets/eye.ico' rel='shortcut icon'>
+</head>
+<body>
+    <!-- Section dengan id header untuk memudahkan pengaturan tampilan css -->
+    <section id="header">  
+        <h1>Halaman Pendaftaran</h1>
+        <h4>Pendaftaran sebagai peserta dalam RAKERWIL (Rapat Kerja Wilayah) Bali dan Nusa Tenggara 2020</h4>
+    </section>
+
+    <section>
+        <!-- Form Start -->
+        <form action="" method="">
+            <!-- div dengan atribut id row1 -->
+            <div id="row1">
+                <!-- input dengan atribut class form -->
+                <input type="text" id="namalengkap" name="namalengkap" class="form" placeholder="Nama Lengkap">
+                <input type="text" id="namapanggilan" name="namapanggilan" class="form" placeholder="Nama Panggilan">
+            </div>
+            <div id="row1">
+                <input type="text" id="notelp" name="notelp" class="form" placeholder="No. Telepon">
+                <input type="text" id="email" name="email" class="form" placeholder="Email">
+            </div>
+            <div id="row2">
+               <input type="text" id="tgllahir" name="tgllahir" class="form" placeholder="Tanggal Lahir">
+               <input type="text" id="tmptlahir" name="tmptlahir" class="form" placeholder="Tempat Lahir">
+                <select name="agama" id="agama">
+                    <option disabled selected>Agama</option>
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="katolik">Katolik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="khonghucu">Khonghucu</option>
+                </select>
+            </div>
+            <div id="row2">
+                <input type="text" id="universitas" name="universitas" class="form" placeholder="Universitas">
+                <input type="text" id="fakultas" name="fakultas" class="form" placeholder="Fakultas/Jurusan">
+                <input type="text" id="jabatan" name="jabatan" class="form" placeholder="Jabatan">
+            </div>
+            <div id="row3">
+                <input type="text" id="alamatasal" name="alamatasal" class="form" placeholder="Alamat Asal">
+            </div>
+            <div id="row4">
+                <label for="">Foto Almamater</label>
+                <input type="file" class="file" id="fotoalmet" name="fotoalmet">
+            </div>
+            <div id="row5">
+                <label for="">Scan KTP</label>
+                <input type="file" class="file" id="ktp" name="ktp">
+            </div>
+            <!-- button digunakan untuk meanpilkan tombol pada web -->
+            <button type="submit" name="submit">Daftar</button>
+        </form>
+    </section>  
+</body>
+</html>

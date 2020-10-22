@@ -1,0 +1,112 @@
+/* mengatur font satu tampilan web */
+body {
+    font-family: sans-serif;
+}
+
+#header {
+    /* tinggi minimal header */
+    min-height: 200px;
+    /* gambar yang digunakan untuk */
+    background-image: url(assets/background.jpg);
+    /* supaya gambar full screen mengikuti ukuran */
+    background-size: cover;
+    /* supaya posisi gambar tidak berubah saat di scroll */
+    background-attachment: fixed;
+    /* warna tulisan */
+    color: white;
+    /* margin atas, minus supaya header naik keatas sesuai dengan contoh yang diberikan */
+    margin-top: -20px;
+}
+
+#header h1 {
+    /* padding digunakan untuk mengatur spasi diantara konten font h1  */
+    padding: 80px 0px 0px 100px;
+}
+
+#header h4 {
+    /* padding digunakan untuk mengatur spasi diantara konten font h4  */
+    padding: 0px 0px 30px 100px;
+}
+
+/* selector dengan id row 1 */
+#row1 {
+    /* grid digunakan untuk mengatur layout dalam website */
+    display: grid;
+    /* dibagi kedalam 2 kolom dengan besar 1 kolomnya 49% */
+    grid-template-columns: 49% 49%;
+    /* diberikan gap pembatas sebesar 1% */
+    grid-column-gap: 1%;
+    /* mengatur margin (atas bawah) dan samping (kanan, kiri) */
+    margin: 15px 150px;
+}
+
+/* selector dengan id row 2 */
+#row2 {
+    display: grid;
+    /* dibagi kedalam 3 kolom dengan besar kolomnya masing-masing 33% 32% 32% */
+    grid-template-columns: 33% 32% 32%;
+    grid-column-gap: 1%;
+    margin: 15px 150px;
+}
+
+#row3 {
+    display: grid;
+    /* dibagi kedalam 1 kolom dengan besar kolomnya 99% */
+    grid-template-columns: 99%;
+    margin: 15px 150px;
+}
+
+#row4 {
+    display: grid;
+    /* dibagi kedalam 1 kolom dengan besar kolomnya 40% */
+    grid-template-columns: 40%;
+    margin: 5px 150px;
+}
+
+#row5 {
+    /* diletakan di sebelah kanan */
+    float: right;
+    display: grid;
+    /* dibagi kedalam 1 kolom dengan besar kolomnya 40% */
+    grid-template-columns: 100%;
+    margin: -50px 500px;
+}
+
+/* untuk membuat border atau kotak pada form */
+
+/* selector dengan class form dan elemen select */
+.form,
+select {
+    /* ukuran font yang digunakan */
+    font-size: 14px;
+    /* tebal garis border */
+    border-width: 1px;
+    /* warna garis border */
+    border-color: #A9A9A9;
+    /* style border */
+    border-style: solid;
+    padding: 5px;
+    /* mengatur sudut seperti lengkungan*/
+    border-radius: 3px;
+}
+
+.file {
+    /* spasi atas input file  */
+    margin-top: 10px;
+}
+
+button {
+    /* warna bacground tombol */
+    background-color: #3CB371;
+    /* sudut menjadi lengkungan sebesar 5px */
+    border-radius: 5px;
+    /* tebal garis border */
+    border: 1px solid #3CB371;
+    /* warna warna font */
+    color: #ffffff;
+    /* ukuran font */
+    font-size: 14px;
+    /* tinggi tombol */
+    margin: 20px 150px;
+    padding: 10px 20px;
+}
