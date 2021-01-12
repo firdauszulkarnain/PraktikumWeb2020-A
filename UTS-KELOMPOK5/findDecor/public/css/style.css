@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assets/font/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Berkshire_Swash';
+    src: url('../assets/font/Berkshire_Swash/BerkshireSwash-Regular.ttf');
+}
+
+body {
+    background-color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    border-style: none;
+    background-color: #f5ebe9;
+    color: #1A3263;
+}
+
+.navbar-brand {
+    font-family: 'Berkshire_Swash';
+    font-size: 32px;
+    color: #ce8272 !important;
+}
+
+.navbar-brand .icon {
+    font-size: 20px;
+    color: #ce8272;
+}
+
+.navbar-nav .btn {
+    font-family: 'OpenSans';
+    max-height: 35px;
+    font-size: 14px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+/* ICON NAVBAR */
+.batas {
+    visibility: hidden;
+    color: white;
+}
+
+.shop {
+    visibility: hidden;
+}
+
+/* Ubah Style Bootstrap */
+.card {
+    border-style: none;
+    background-color: #fefaf1;
+
+}
+
+.form-control {
+    border-color: none;
+    color: black;
+    font-size: 13px;
+}
+
+hr {
+    background-color: #ce8272;
+}
+
+
+/* Utilty Tombol */
+.tombol {
+    background-color: #d49a89;
+    color: white;
+    font-family: 'OpenSans';
+}
+
+.masuk {
+    border-color: #1A3263;
+    background-color: #1A3263;
+    color: white;
+}
+
+
+/* VENDOR */
+.sub-tittle {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+}
+
+.vendor {
+    font-family: 'OpenSans';
+    font-size: 32px;
+}
+
+.vendor .card {
+    max-width: 300px !important;
+    border-radius: 10px;
+}
+
+.vendor .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px !important;
+}
+
+.vendor .card-title {
+    font-size: 14px;
+}
+
+.vendor .card-text {
+    font-size: 12px;
+}
+
+.sewa {
+    font-family: 'Viga', sans-serif;
+}
+
+
+/* Profil */
+.form-control-file {
+    font-size: 13px;
+    color: black;
+}
+
+.font {
+    font-size: 20px;
+}
+
+.content {
+    font-family: 'OpenSans';
+}
+
+.user-content {
+    min-height: 50em;
+}
+
+.tabel-content {
+    height: 40em;
+}
+
+/* Sidebar */
+.menu a {
+    font-size: 20px;
+}
+
+.nav-item {
+    margin: 5px;
+    /* border-style: solid; */
+}
+
+.vendor a {
+    font-size: 18px;
+}
+
+/* HALAMAN BAYAR */
+.order th {
+    font-size: 14px;
+}
+
+.order td {
+    font-size: 12px;
+}
+
+
+/* FOOTER */
+.page-footer {
+    background-color: #f5ebe9;
+    color: black;
+}
+
+/* footer Title */
+.flogo {
+    font-family: 'Berkshire_Swash';
+    font-size: 24px;
+}
+
+.ftitle {
+    color: #ce8272 !important;
+}
+
+.page-footer .link {
+    color: black;
+}
+
+.page-footer .soc-med {
+    border-radius: 3px;
+    color: #ce8272;
+}
+
+.medsos {
+    border-color: #d49a89;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* HOVER */
+.masuk:hover {
+    background-color: white;
+    color: #1A3263;
+}
+
+.tombol:hover {
+    background-color: white;
+    color: #d49a89;
+}
+
+.link:hover {
+    color: #d49a89;
+}
+
+/* TENTANG KAMI */
+.deskripsi h1 {
+    font-family: 'Berkshire_Swash';
+    color: #d49a89;
+}
+
+.deskripsi p {
+    font-family: 'OpenSans';
+}
+
+/* RESPONSIVE DESKTOP */
+@media (min-width: 992px) {
+
+    /* Search */
+    .mr-sm-2 {
+        width: 750px !important;
+    }
+
+    /* Caraousel */
+    .carousel-inner {
+        width: 100%;
+        max-height: 400px !important;
+    }
+
+    /* Icon shop */
+    .shop {
+        visibility: visible;
+    }
+
+    .batas {
+        font-size: 35px;
+        visibility: visible;
+    }
+
+    .keterangan {
+        margin-left: -120px !important;
+    }
+
+}

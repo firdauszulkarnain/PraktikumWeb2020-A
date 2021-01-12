@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assets/font/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Berkshire_Swash';
+    src: url('../assets/font/Berkshire_Swash/BerkshireSwash-Regular.ttf');
+}
+
+body {
+    background-color: white;
+}
+
+.logo{
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px rgba(163, 99, 3, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: 'Berkshire_Swash';
+    font-size: 20pt;
+    color: #ce8272 !important;
+}
+
+.wrapper {
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 260px;
+    display: block;
+}
+
+.sidebar-wrapper{
+    position: fixed;
+    max-height: calc(100vh - 75px);
+    min-height: 100vh;
+    overflow: auto;
+    background-color: #d3d3d39c;
+    width: 260px;
+}
+
+.nav{
+    margin-top: 5px;
+    float: none;
+    display: block;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-top: 15px;
+}
+
+.nav-item a{
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+
+.nav-link{
+    padding: 15px;
+}
+
+.active, .nav-link:hover{
+    background: rgba(255, 255, 255, 0.945);
+    opacity: 1;
+    border-radius: 4px;
+    display: block;
+}
+
+.main{
+    background: rgba(203, 203, 210, 0.15);
+    position: relative;
+    float: right;
+    width: calc(100% - 260px);
+    min-height: 100%;
+}
+
+.navbar{
+    min-height: 61px;
+    max-height: 61px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 1px rgba(163, 99, 3, 0.2);
+}
+
+.navbar-admin a{
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.card-header{
+    background:  #ce8272;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 18pt;
+    color:  #fefaf1;
+}
+
+.card-footer{
+    background: #f5ebe9;
+}
+
+.card-footer a{
+    text-decoration: none;
+    color: #666666 !important;
+}
+
+.card-footer a:hover{
+    text-decoration: none;
+    color: #000000 !important;
+}

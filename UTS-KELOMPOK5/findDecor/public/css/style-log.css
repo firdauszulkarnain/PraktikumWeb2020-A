@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Berkshire_Swash';
+  src: url('../assets/font/Berkshire_Swash/BerkshireSwash-Regular.ttf');
+}
+
+
+body {
+  background-color: #f7f7f7;
+  line-height: 1.5;
+}
+
+.card {
+  border-radius: 0;
+  border: 0;
+}
+
+.mt-12 {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+}
+
+.border-box {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(171, 169, 169, 0, 06);
+}
+
+.logo {
+  font-family: 'Berkshire_Swash';
+  font-size: 45px;
+  margin-top: 50px;
+  color: #1A3263 !important;
+  text-decoration: none;
+}
+
+header {
+  margin: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.masuk {
+  border-color: #1A3263;
+  background-color: #1A3263;
+  color: white;
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
+}
+
+.masuk:hover {
+  border-color: #1A3263;
+  background-color: #f7f7f7;
+  color: #1a3263;
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
+}
+
+.label {
+  color: #3d3d3d;
+}
